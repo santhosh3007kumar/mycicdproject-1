@@ -1,0 +1,161 @@
+[200~<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Our Website</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+<style>
+* { margin:0; padding:0; box-sizing:border-box; font-family: Arial, sans-serif; }
+html { scroll-behavior: smooth; }
+
+header {
+  position: fixed;
+  top:0; width:100%;
+  padding:15px 50px;
+  background: rgba(0,0,0,0.7);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  color:white;
+  z-index:1000;
+}
+
+header span { color:#f1c40f; font-weight:bold; }
+nav a {
+  color:white;
+  margin-left:20px;
+  text-decoration:none;
+  font-size:14px;
+}
+nav a:hover { color:#f1c40f; }
+
+.hero {
+  height:100vh;
+  background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+  url("https://images.unsplash.com/photo-1505761671935-60b3a7427bad") center/cover;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  color:white;
+}
+
+.hero h1 { font-size:40px; }
+.hero span { color:#f1c40f; }
+.hero p { margin-top:15px; }
+
+.section {
+  padding:80px 50px;
+  text-align:center;
+}
+
+.section h2 {
+  margin-bottom:20px;
+}
+.section h2 span {
+  color:#f1c40f;
+}
+
+.services {
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap:30px;
+  margin-top:40px;
+}
+
+.service-box {
+  background:#f9f9f9;
+  padding:30px;
+  border-radius:8px;
+}
+.service-box i {
+  font-size:35px;
+  color:#f1c40f;
+  margin-bottom:15px;
+}
+
+footer {
+  background:#111;
+  color:white;
+  padding:20px;
+  text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h3><span>[</span>Santhoshkumar<span>]</span></h3>
+  <nav>
+    <a href="#home">HOME</a>
+    <a href="#services">SERVICES</a>
+    <a href="#work">WORK</a>
+    <a href="#about">ABOUT</a>
+    <a href="#contact">CONTACT</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div>
+    <h1>HELLO WORLD,<br>
+      I AM <span>CLOUD & DEVOPS ENGINEER </span><br>
+      FROM CHENNAI
+    </h1>
+    <p>This is My Webpage</p>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section">
+  <h2>[ <span>SERVICES</span> ]</h2>
+
+  <div class="services">
+    <div class="service-box">
+      <i class="fa fa-desktop"></i>
+      <h4>Cloud Services</h4>
+      <p>Modern and responsive web design.</p>
+    </div>
+
+    <div class="service-box">
+      <i class="fa fa-print"></i>
+      <h4>Data Management</h4>
+      <p>Creative branding and print solutions.</p>
+    </div>
+
+    <div class="service-box">
+      <i class="fa fa-code"></i>
+      <h4>Software Developement</h4>
+      <p>Clean and optimized code.</p>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work" class="section">
+  <h2>[ <span>WORK</span> ]</h2>
+  <p>Portfolio section placeholder</p>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2>[ <span>ABOUT</span> ]</h2>
+  <p>specializing in automating and managing development within cloud environments.
+  <p></p>  making them experts in both the platform and the delivery pipeline. </p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2>[ <span>CONTACT</span> ]</h2>
+  <p>Email: kumarsanthosh18905@gmail.com</p>
+</section>
+
+<footer>
+  © 2026 OnePage Portfolio
+</footer>
+
+</body>
+</html>
+
